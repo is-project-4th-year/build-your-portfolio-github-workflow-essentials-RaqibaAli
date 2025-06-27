@@ -2,51 +2,67 @@
 
 ## 1. Student Details
 
-- **Full Name**:
-- **GitHub Username**:
-- **Email**:
+- **Full Name**:Raqiba Ahmed 
+- **GitHub Username**:RaqibaAli  
+- **Email**:raqiba.ali@strathmore.edu
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+- **GitHub Pages URL**:  https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-RaqibaAli/](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-RaqibaAli/)
+  
 
 ## 3. Learnings from the Git Crash Program
+Branching  
+Helped me isolate features such as the footer and navigation without affecting the main code. This made testing and bug fixing easier.
 
-List at least **four key concepts or skills** you learned during the Git crash course. For each one, write a brief explanation of how it helped you manage your portfolio project more effectively.
+Pull Requests  
+Pull requests allowed me to review and manage code changes before merging. I used them to track progress and make sure each change was clear and justified.
 
-Example format:
+Issues and Milestones  
+I used issues to break down tasks like adding sections and fixing bugs. Milestones helped me group these tasks and stay on schedule.
 
-- **Branching**: Helped me separate features and prevent conflicts when working on different sections of the site.
-- _(Continue with other concepts…)_
+GitHub Project Board  
+The board gave me a clear visual layout of tasks using “To Do”, “In Progress”, and “Done” columns. This helped me stay focused and complete each section step-by-step.
+
+
 
 ## 4. Screenshots of Key GitHub Features
 
-Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
-
-> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
-> (you could just simply copy and paste the image into the Assignment.md)
-
-```markdown
-![Caption](path/to/your/image.png)
-```
 
 ### A. Milestones and Issues
 
-- Screenshot showing your milestone(s) and the issues linked to it.
+This screenshot shows the milestone I created (“Final Portfolio Submission”) and the issues linked to it, such as “Add Footer Section” 
+![milestones_issues](https://github.com/user-attachments/assets/cfdfb198-027b-48c6-8e34-4260c67ddf8e)
+
 
 ### B. Project Board
 
-- Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
+The GitHub Project Board has columns for "To Do", "In Progress", and "Done". Issues like “Add About Section” and “Fix layout” are organized by status
+![project_board](https://github.com/user-attachments/assets/79cf7bb6-2cb1-491f-915d-3f6cfe998a94)
+
 
 ### C. Branching
 
-- Screenshot showing your branch list with meaningful naming.
+Here I show three branches — `about`, `addfooter`, and `navigation` — each representing different features I worked on separately.
+![branches](https://github.com/user-attachments/assets/57cbcbee-471d-4db8-b18d-8aae501f4d3e)
+![branches2](https://github.com/user-attachments/assets/2334b665-ad60-456c-bdac-e2d869f84305)
+
 
 ### D. Pull Requests
 
-- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+This shows the pull request created from `addfooter` into `main`, with a description and linked changes to the `index.html`.
+![pull_request](https://github.com/user-attachments/assets/f19d88a3-aa15-447e-b1a1-4a4379d4039e)
+
 
 ### E. Merge Conflict Resolution
+I attempted to create a merge conflict by editing the same line of `index.html` in both the `main` and `navigation` branches. GitHub detected the conflict when I opened the pull request, but the conflict editor kept loading and did not allow me to complete the resolution.
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+In a typical case, when a merge conflict occurs:
+- GitHub highlights the conflicting lines using `<<<<<<<`, `=======`, and `>>>>>>>`
+- I would manually edit the conflicting section to keep or combine the changes
+- Then I would mark the conflict as resolved and commit the merge
+
+Although I could not complete the resolution in this attempt due to a GitHub issue, I understand how merge conflicts are triggered and resolved.
+
+![resolving conflicts](https://github.com/user-attachments/assets/91f5fb90-6057-409d-b4d4-7736f7e6aa22)
+
