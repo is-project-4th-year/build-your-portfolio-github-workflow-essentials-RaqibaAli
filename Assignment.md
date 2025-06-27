@@ -8,7 +8,8 @@
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**:  https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-RaqibaAli/](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-RaqibaAli/)
+ [https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-RaqibaAli/](https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-RaqibaAli/)
+
   
 
 ## 3. Learnings from the Git Crash Program
